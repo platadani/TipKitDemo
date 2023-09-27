@@ -47,19 +47,19 @@ Title, text and message are the minimum values to provide, but there are others 
     @Tips.OptionsBuilder var options: [TipOption] { get }
 ```
 
-En la vista podemos instanciar este objeto Tip:
+In the view we can instantiate this Tip object:
 
 ```Swift
 var favoriteTip = FavoriteTip()
 ``````
 
-y mediante el método popoverTip, mostrarlo sobre una vista, pasándole este objeto y configurando desde que lado mostrarlo.
+and with the popoverTip method, display it on a view, passing it this object and configuring from which side to display it.
 
 ```Swift
 .popoverTip(favoriteTip, arrowEdge: .bottom, action: {_ in })
 ```
 
-Por último es necesario realizar una configuración al cargar la vista:
+Finally, it is necessary to make a configuration when loading the view:
 
 ```Swift
 .task {
@@ -70,7 +70,7 @@ Por último es necesario realizar una configuración al cargar la vista:
 }
 ``````
 
-Para indicar la frecuencia con que se muestra este tip, tenemos disponibles los siguientes valores:
+To indicate the frequency with which this tip is displayed, the following values are available:
 
 ```Swift
 /// An immediate display frequency.
