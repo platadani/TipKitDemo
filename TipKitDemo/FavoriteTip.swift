@@ -5,7 +5,6 @@
 //  Created by Daniel Plata on 26/9/23.
 //
 
-import Foundation
 import TipKit
 
 struct FavoriteTip: Tip {
