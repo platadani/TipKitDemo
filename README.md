@@ -2,7 +2,7 @@
 <img width=250 src="Assets/example.png">
 <br>
 
-Demonstration of use of the new component for displaying directions in apps with swiftui introduced in iOS 17: TipKit
+Demonstration of use of the new component for displaying tips in apps with swiftui introduced in iOS 17: TipKit
 
 ##### Apple documentation: <a>https://developer.apple.com/documentation/TipKit</a>
 
